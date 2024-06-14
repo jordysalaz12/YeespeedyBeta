@@ -1,0 +1,16 @@
+.navbar-nav li {
+  border-radius: 5px; /* Bordes redondeados */
+  padding: 5px 10px; /* Espaciado interno */
+  margin-right: 10px; /* Espacio entre enlaces */
+  color: #000; /* Color de texto negro */
+  background-color: #fff; /* Fondo blanco */
+  transition: background-color 0.3s, color 0.3s;
+}
+.navbar-nav li:hover {
+  background-color: whitesmoke; /* Fondo amarillo al pasar el ratón */
+  color: #000; /* Color de texto negro al pasar el ratón */
+  border: 1px solid whitesmoke;
+}
+.navbar-nav .nav-item:last-child .nav-link {
+  margin-right: 0;
+}

@@ -1,0 +1,15 @@
+@import url(estilos/nav.css);
+@import url(estilos/ofertas.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif; /* Fuente por defecto */
+  line-height: 1.6; /* Altura de línea para mejor legibilidad */
+  color: #333; /* Color del texto */
+
+  margin: 0; /* Sin margen */
+}

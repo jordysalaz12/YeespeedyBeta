@@ -1,0 +1,47 @@
+.combo-style {
+  background: url(/uploads/COMBO1.jpeg) no-repeat center top;
+  background-size: cover;
+  height: 34.68rem;
+  width: 24.375rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.precio-redondo p {
+  border: 1px solid red;
+  border-radius: 50%;
+  background: red;
+  color: white;
+  height: 6rem;
+  width: 6rem;
+  line-height: 6rem;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.lista-combo li {
+  font-size: 1.5rem;
+  color: white;
+  padding: 1rem;
+}
+
+.boton-comprar a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.boton-comprar {
+  background: red;
+  height: 3.5rem;
+  width: 6rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.boton-comprar:hover,
+.hover-button:focus {
+  transform: scale(1.1); /* Agranda el botón un 10% */
+  outline: none; /* Elimina el borde de enfoque del navegador */
+}
