@@ -1,6 +1,9 @@
 @import url(estilos/nav.css);
 @import url(estilos/ofertas.css);
-
+@import url(estilos/fuentes.css);
+@import url(estilos/carta.css);
+@import url(estilos/footer.css);
+@import url(estilos/botonwhatsapp.css);
 * {
   margin: 0;
   padding: 0;

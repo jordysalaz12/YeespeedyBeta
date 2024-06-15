@@ -1,3 +1,7 @@
+.title-global p {
+  font-size: 1.5rem;
+}
+
 .combo-style {
   background: url(/uploads/COMBO1.jpeg) no-repeat center top;
   background-size: cover;
@@ -7,13 +11,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  color: yellow;
 }
 
 .precio-redondo p {
   border: 1px solid red;
   border-radius: 50%;
   background: red;
-  color: white;
+
   height: 6rem;
   width: 6rem;
   line-height: 6rem;
@@ -23,7 +28,6 @@
 
 .lista-combo li {
   font-size: 1.5rem;
-  color: white;
   padding: 1rem;
 }
 

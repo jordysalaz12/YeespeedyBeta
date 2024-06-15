@@ -1,0 +1,7 @@
+.carta-main {
+  background: url("/images/cartamain.png") no-repeat center top;
+  background-size: cover;
+  height: 40rem;
+  width: 30rem;
+  margin: 20px;
+}
